@@ -1,5 +1,8 @@
 #Function 1 - double
 
+from os import name
+
+
 def double(number):
     # Return the number multiplied by 2
     return number * 2
@@ -13,8 +16,8 @@ def is_pass(score):
 #Function 3 - greet
 
 def greet(name, greeting="Hello"):
-    # Return the greeting, a comma, the name, and an exclamation mark   
-    return greeting + ", " + name + "! Welcome to PLP."   
+    # Return the greeting, a comma, the name, and an exclamation mark    
+    return greeting + ', ' + name + '!'
 
 print(double(7))
 print(double(10))
